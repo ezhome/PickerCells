@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class PickerCellsController;
-@protocol PickerCellsDelegate <UITableViewDataSource, UITableViewDelegate>
+@protocol PickerCellsDelegate <NSObject>
 
 @optional
 - (void)pickerCellsController:(PickerCellsController *)controller willExpandTableViewContent:(UITableView *)tableView forHeight:(CGFloat)expandHeight;

@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "http://i.imgur.com/Z8vbhNFl.png", "http://i.imgur.com/WfgTUtel.png"
   s.license          = 'MIT'
   s.author           = { "Danis Ziganshin" => "zigdanis@gmail.com" }
-  s.source           = { :git => "https://github.com/zigdanis/PickerCells.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ezhome/PickerCells.git", :tag => s.version.to_s }
   s.platform         = :ios, '6.0'
   s.requires_arc     = true
   s.source_files     = 'PickerCells'
